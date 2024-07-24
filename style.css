@@ -145,20 +145,73 @@ spam{
 /* \-----------hero dection------- */
 .hero-section{
     background-image: url("background.jpg");
-    height: 600px;
+    height: 350px;
     background-size: cover;
-    display: flex;  
+    display: flex; 
+    justify-content: center;
+    align-items: end; 
+
 }
 .hero-mes{
     background-color:white;
     color: black;
     height: 40px;
     display: flex;
+    width: 84%;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+    margin-bottom: 20px;
     
 }
 .hero-mes a{
     color: #007185;
+}
+/* --------------shopsection------------- */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(248, 233, 190);
+
+}
+.box{
+    height: 405px;
+    width: 23%;
+    
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* -----------------rem = root size---- */
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.box-content p{
+    color: #007185;;
+}
+/* -----------foter-------- */
+.fot-pannel1{
+    margin-top: 5px;
+   background-color: #0f1111; 
+   color: white;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.nothing{
+    height: 100px;
 }
