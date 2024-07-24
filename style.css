@@ -142,3 +142,23 @@ spam{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* \-----------hero dection------- */
+.hero-section{
+    background-image: url("background.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;  
+}
+.hero-mes{
+    background-color:white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    
+}
+.hero-mes a{
+    color: #007185;
+}
