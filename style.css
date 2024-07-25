@@ -141,7 +141,35 @@ spam{
 .sell{
     font-size: 0.9rem;
     font-weight: 700;
+
 }
+/* -------addd----------
+by chandu to confirm */
+
+.ads{
+    margin-right: 0px;
+    height:40px;
+    width: 140px;
+    border: 1px;
+    position: fixed;
+    background-color: #1a2122;
+    color: white;
+    font-size: 0.8rem;
+    left: 10px;
+    bottom: 30px;
+    text-align: center;
+    padding: 0.5px 0.5px 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+
+
+
+
 /* \-----------hero dection------- */
 .hero-section{
     background-image: url("background.jpg");
@@ -183,6 +211,11 @@ spam{
     padding: 20px 0px 15px;
     margin-top: 10px;
 }
+/* }
+.box:hover{
+    height: 1.1rem;
+    width: 1.1rem;
+} */
 .box-img{
     height: 300px;
     background-size: cover;
